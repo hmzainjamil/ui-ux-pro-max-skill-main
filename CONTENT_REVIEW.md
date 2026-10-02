@@ -2,6 +2,6 @@
 
 Date: 2026-10-02
 
-The previous README described an installable UI/UX skill, Apple HIG coverage, design outcomes, commands, configuration, APIs, tests, benchmarks, case studies, and compatibility. Checked paths `docs/README.md`, `docs/assets/banner.png`, root `SKILL.md`, `skill/SKILL.md`, `package.json`, and `SECURITY.md` returned not found. Repository search indexing was unavailable.
+The recursive tree on `docs/ui-ux-skill-evidence-and-scope` was checked. It contains the root documentation files and a nested project directory with Claude Code skills, plugin metadata, design data, scripts, and `cli/package.json`. The nested project includes its own README and CLI README. Root-level `SKILL.md`, `package.json`, and `docs/README.md` are absent; the earlier review did not inspect the full tree and therefore missed the nested source.
 
-This is not a full tree audit. The README now states that limit. No design guidance or platform conformance was validated. Restore capability claims only after locating and reviewing the real skill source and testing examples.
+The root README now maps the nested project and distinguishes path presence from verification. No CLI, skill workflow, design output, or accessibility behavior was executed or validated. The external source named by the nested README was not compared with this copy.
