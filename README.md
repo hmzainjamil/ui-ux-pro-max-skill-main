@@ -13,4 +13,4 @@ The root itself has no `SKILL.md`, `package.json`, or `docs/README.md`. The recu
 
 ## Evidence limits
 
-The tree confirms source-file presence only. The CLI was not run, and no generated design, accessibility result, benchmark, compatibility, or platform conformance was tested. Skill guidance is not proof of design quality or legal compliance.
+The tree confirms source-file presence only. The CLI was not run, and no generated design, accessibility result, benchmark, compatibility, or platform conformance was tested. Skill guidance is not proof of design quality or legal compliance. The nested CLI README's assistant target list is incomplete for this snapshot; check the [local CLI type definitions](ui-ux-pro-max-skill-main/cli/src/types/index.ts) for declared identifiers.
