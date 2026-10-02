@@ -17,3 +17,5 @@ Repository search was unavailable, so the full tree was not independently enumer
 Design guidance is a starting point. Check accessibility, responsive behavior, interaction states, and rendered output in the actual product. Do not claim design quality or conformance without review.
 
 See [CONTENT_REVIEW.md](CONTENT_REVIEW.md) for the paths checked and claims removed.
+
+See [SECURITY.md](SECURITY.md) for design-data and tool-use cautions.
