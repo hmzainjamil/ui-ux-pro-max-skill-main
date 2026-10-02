@@ -9,7 +9,7 @@ This repository has a root documentation layer and a nested project directory at
 - [Root security guidance](SECURITY.md): review design data and tool permissions
 - [Content review](CONTENT_REVIEW.md): checked paths and evidence limits
 
-The root itself has no `SKILL.md`, `package.json`, or `docs/README.md`. The recursive tree on `docs/ui-ux-skill-evidence-and-scope` confirms those sources exist under the nested project directory instead. The nested README identifies an external project URL; synchronization with that upstream source was not verified.
+The root itself has no `SKILL.md`, `package.json`, or `docs/README.md`. The recursive tree on `docs/ui-ux-skill-evidence-and-scope` confirms those sources exist under the nested project directory instead. The nested README identifies an external project URL; synchronization with that upstream source was not verified. Its fixed counts and accessibility badge are copied claims and were not independently validated.
 
 ## Evidence limits
 
