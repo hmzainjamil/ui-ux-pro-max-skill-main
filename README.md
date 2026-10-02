@@ -1,21 +1,16 @@
-# UI/UX Pro Max
+# UI/UX Pro Max project snapshot
 
-This repository is presented as a UI/UX guidance skill. The previous README made unsupported claims about a Claude Code skill, Apple HIG coverage, design outcomes, installation, configuration, APIs, benchmarks, and examples. The referenced banner, skill entrypoint, and package files were not found at the checked paths. These claims are removed pending source evidence.
+This repository has a root documentation layer and a nested project directory at `ui-ux-pro-max-skill-main/`. The nested directory contains Claude Code skill files, plugin metadata, design data and scripts, plus a CLI package.
 
-## Verification status
+## Start here
 
-| Item | Result |
-|---|---|
-| Root README | Present |
-| Claimed `docs/README.md` and `docs/assets/banner.png` | Not found at checked paths |
-| Root `SKILL.md`, `skill/SKILL.md`, and `package.json` | Not found at checked paths |
-| Design-system source coverage and examples | Not verified |
-| Install, tests, and benchmarks | Not verified |
+- [Nested project README](ui-ux-pro-max-skill-main/README.md): project scope and usage
+- [CLI README](ui-ux-pro-max-skill-main/cli/README.md): CLI commands and development notes
+- [Root security guidance](SECURITY.md): review design data and tool permissions
+- [Content review](CONTENT_REVIEW.md): checked paths and evidence limits
 
-Repository search was unavailable, so the full tree was not independently enumerated. Browse the available files and verify each recommendation against current platform guidelines before use.
+The root itself has no `SKILL.md`, `package.json`, or `docs/README.md`. The recursive tree on `docs/ui-ux-skill-evidence-and-scope` confirms those sources exist under the nested project directory instead. The nested README identifies an external project URL; synchronization with that upstream source was not verified.
 
-Design guidance is a starting point. Check accessibility, responsive behavior, interaction states, and rendered output in the actual product. Do not claim design quality or conformance without review.
+## Evidence limits
 
-See [CONTENT_REVIEW.md](CONTENT_REVIEW.md) for the paths checked and claims removed.
-
-See [SECURITY.md](SECURITY.md) for design-data and tool-use cautions.
+The tree confirms source-file presence only. The CLI was not run, and no generated design, accessibility result, benchmark, compatibility, or platform conformance was tested. Skill guidance is not proof of design quality or legal compliance.
